@@ -48,7 +48,7 @@ public class Zombie : MonoBehaviour
         if (target != null && isEnabled)
             agent.SetDestination(target.position);
         else
-            agent.Stop();
+            agent.isStopped = true;
 
         switch (movementState)
         {

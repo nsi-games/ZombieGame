@@ -6,19 +6,34 @@ ModelImporter:
     100000: //RootNode
     100002: Cylinder_002
     100004: Cylinder_003
+    100006: Cylinder.002
+    100008: Cylinder.003
     400000: //RootNode
     400002: Cylinder_002
     400004: Cylinder_003
+    400006: Cylinder.002
+    400008: Cylinder.003
     2300000: Cylinder_002
     2300002: Cylinder_003
+    2300004: Cylinder.002
+    2300006: Cylinder.003
     3300000: Cylinder_002
     3300002: Cylinder_003
+    3300004: Cylinder.002
+    3300006: Cylinder.003
     4300000: Cylinder_003
     4300002: Cylinder_002
+    4300004: Cylinder.003
+    4300006: Cylinder.002
     7400000: Default Take
     9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 6872cd37e10298f47a62f7662e6c915a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -62,6 +77,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
@@ -86,6 +102,9 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -100,7 +119,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
